@@ -24,8 +24,10 @@ btn_restarInicio.addEventListener('click',(eve)=>{
     
     //boton arriba
     Subir_o_Bajar('#scroll-up', 0)
+
+     //Nota: el codigo fue remplazado para realizar el scroll mediante html y css
     
-    //boton ir a recetas
+/*     //boton ir a recetas
     Subir_o_Bajar('#recetas-link', 635)
 
     //boton ir a servisios
@@ -36,7 +38,7 @@ btn_restarInicio.addEventListener('click',(eve)=>{
     
     //boton ir a contactos
     Subir_o_Bajar("#contactos-link", 9999999)
-    
+     */
     
     //logica de subir o bajar
     function Subir_o_Bajar(referecia, distacia){
